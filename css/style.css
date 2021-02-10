@@ -11,7 +11,7 @@ header {
     position: fixed;
     background: rgb(255, 250, 240);
     box-shadow: 1px 1px 5px black;
-    z-index: 1;
+    z-index: 3;
 }
 #navbar {
     padding: 0;
