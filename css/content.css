@@ -1,0 +1,65 @@
+section {
+    width: 70%;
+    margin: auto;
+}
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+    padding-top: 25vh;
+}
+#welcome-section h1 {
+    font-weight: 100;
+    font-size: 5em;
+}
+#description {
+    font-size: 1.5em;
+}
+#quote {
+    margin: 50px;
+    text-align: center;
+}
+#quote p{
+    font-size: 1em;
+}
+#projects {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.project {
+    text-align: center;
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-one {
+    width: 300px;
+    margin: auto;
+}
+.project-tile {
+    background: black;
+    height: 300px;
+    width: 300px;
+}
+.project-tile a{
+    text-decoration: none;
+}
+
+.project-tile img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+#tile {
+    color: white;
+    line-height: 280px;
+}
+
+
+@media screen and (max-width: 850px){
+    .project {
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+}

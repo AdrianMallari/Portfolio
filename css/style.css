@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: rgb(255, 250, 240);
+}
+header {
+    width: 100%;
+    position: fixed;
+    background: rgb(255, 250, 240);
+    box-shadow: 1px 1px 5px black;
+    z-index: 1;
+}
+#navbar {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+#navbar ul {
+    padding: 0;
+
+}
+#navbar ul li {
+    display: inline-flex;
+    list-style: none;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+#navbar ul li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+#section-link {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#profile-link {
+    padding: 10px;
+    border-radius: 100%;
+}
+#profile-link img {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 50px;
+    margin: 0;
+}
